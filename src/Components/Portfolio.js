@@ -32,16 +32,13 @@ export default function Portfolio() {
   ];
 
   return (
-    <div class="section-padding">
+    <div className="section-padding">
       <h1>Portfolio</h1>
       {portfolioItems.map((item) => {
         return (
-          <div key={item.name} class="portfolio-card">
-            <h2>{item.name}</h2>
+          <div key={item.name} className="portfolio-card">
+            <a href={item.link} rel="noopener noreferrer" target="_blank"><h2>{item.name}</h2></a>
             <p>{item.description}</p>
-            <a href={item.link} rel="noopener noreferrer" target="_blank">
-              {item.link}
-            </a>
           </div>
         );
       })}

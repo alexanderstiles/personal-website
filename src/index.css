@@ -6,17 +6,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  color: #dbe8d4;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .flex-header {
-  background-color: #DBE8D4;
+  background-color: #dbe8d4;
   color: #222733;
-  padding: 10px;
   position: fixed;
-  width: 100%;
+  width: 100vw;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .text-header {
@@ -30,6 +36,7 @@ code {
 .hero-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .section-padding {
@@ -42,13 +49,29 @@ code {
 }
 
 .portfolio-card {
-  border: 1px solid #DBE8D4;
+  border: 1px solid #dbe8d4;
   margin: 40px 0px;
   padding: 20px;
 }
 
 .headshot {
-  height: 300px;
-  width: auto;
+  width: 250px;
+  height: auto;
   margin: 0px 40px;
+}
+
+.hr {
+  height: 5px;
+  border: 0px solid #dbe8d4;
+  border-top-width: 1px;
+}
+
+@media screen and (max-width: 700px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .section-padding {
+    padding: 75px 0px;
+  }
 }

@@ -12,10 +12,16 @@ function App() {
       <Header />
       <div className="content-wrapper">
         <Hero />
+        <hr className="hr" />
         <About />
+        <hr className="hr" />
         <Portfolio />
+        <hr className="hr" />
         <Resume />
+        <hr className="hr" />
         <Contact />
+        <hr className="hr" />
+        <p>© 2021 Alexander Stiles</p>
       </div>
     </div>
   );

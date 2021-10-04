@@ -3,7 +3,7 @@ import headshot from '../Assets/headshot.jpg'
 
 export default function Hero() {
     return (
-        <div class="hero-container section-padding" >
+        <div className="hero-container section-padding" >
             <div>
                 <h1>Alexander Stiles</h1>
                 <h2>Front-end Developer</h2>
