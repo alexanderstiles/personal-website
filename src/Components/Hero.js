@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <div className="hero-container section-padding" >
             <div>
-                <h1>Alexander Stiles</h1>
+                <h1>ALEXANDER STILES</h1>
                 <h2>Front-end Developer</h2>
             </div>
             <img src={headshot} className="headshot" alt="headshot"></img>

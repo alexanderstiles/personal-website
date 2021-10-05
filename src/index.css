@@ -10,6 +10,18 @@ a {
   color: #dbe8d4;
 }
 
+h1, h3 {
+  font-family: Trebuchet MS, sans-serif;
+}
+
+h3 {
+  margin: 5px 0px;
+}
+
+h1 {
+  margin: 20px 0px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -49,9 +61,9 @@ code {
 }
 
 .portfolio-card {
-  border: 1px solid #dbe8d4;
   margin: 40px 0px;
   padding: 20px;
+  /* border: 1px solid #dbe8d4; */
 }
 
 .headshot {
@@ -66,6 +78,12 @@ code {
   border-top-width: 1px;
 }
 
+.port-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 64px;
+}
+
 @media screen and (max-width: 700px) {
   .hero-container {
     flex-direction: column;
@@ -75,3 +93,4 @@ code {
     padding: 75px 0px;
   }
 }
+

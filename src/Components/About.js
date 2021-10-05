@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="section-padding">
-      <h1>About Me</h1>
+      <h1>ABOUT ME</h1>
       <p>
         An American expatriate who grew up in Europe, I am now working to
         complete a B.A. in Computer Science and a minor in Technology
