@@ -3,7 +3,7 @@ import resume from '../Assets/Alex-Stiles-Resume.pdf'
 
 export default function Resume() {
     return (
-        <div className="section-padding">
+        <div id="resume" className="section-padding">
             <h1>RESUME</h1>
             <p>Click <a download href={resume}>here</a> to download.</p>
         </div>

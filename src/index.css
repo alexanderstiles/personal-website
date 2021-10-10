@@ -1,9 +1,11 @@
 body {
   margin: 0;
-  background-color: #222733;
   font-family: Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #222733 !important;
+  background: url('./Assets/figure.png') no-repeat center center fixed;
+  background-size: cover;
 }
 
 a {
@@ -15,11 +17,16 @@ h1, h3 {
 }
 
 h3 {
-  margin: 5px 0px;
+  margin: 20px 0px;
+  font-size: 22px;
 }
 
 h1 {
   margin: 20px 0px;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 code {
@@ -81,6 +88,7 @@ code {
 .port-icon {
   height: 100px;
   width: 100px;
+  margin: 10px 0px;
   border-radius: 64px;
 }
 
@@ -91,6 +99,10 @@ code {
 
   .section-padding {
     padding: 75px 0px;
+  }
+
+  h3 {
+    font-size: 16px;
   }
 }
 

@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="content-wrapper">
+        <div className="figure" />
         <Hero />
         <hr className="hr" />
         <About />

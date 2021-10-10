@@ -4,7 +4,7 @@ import email from "../Assets/email.png";
 
 export default function Contact() {
   return (
-    <div className="section-padding">
+    <div id="contact" className="section-padding">
       <h1>CONTACT</h1>
       <div>
         <a style={{marginRight: 10}} href="https://www.linkedin.com/in/alexander-js/">
