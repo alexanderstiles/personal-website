@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="section-padding">
       <h1>ABOUT ME</h1>
-      <p style={{ maxWidth: 700, margin: "auto" }}>
+      <p style={{ maxWidth: 700, margin: "auto", lineHeight: '30px' }}>
         Hi! I'm Alex. An American expatriate who grew up in Europe, I am working for Ballast
         Lane Applications, a custom software development firm in Boston, while
         completing a B.A. in Computer Science and a minor in Technology

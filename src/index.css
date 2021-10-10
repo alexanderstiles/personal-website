@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Courier, monospace;
+  font-family: Trebuchet MS, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #222733 !important;
@@ -13,10 +13,6 @@ body {
 
 a {
   color: #dbe8d4;
-}
-
-h1, h3 {
-  font-family: Trebuchet MS, sans-serif;
 }
 
 h3 {
