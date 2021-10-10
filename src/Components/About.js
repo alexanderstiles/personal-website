@@ -11,7 +11,7 @@ export default function About() {
         Entrepreneurship at the University of Virginia. I am enthusiastic about
         web-development and related modern front-end technologies. In my free
         time I enjoy a combination of traveling, hiking, and good food. <br /> <br />I will
-        be based in Amsterdam starting June 2022. <br /> <br /> Some of my favorite corporate
+        be based in Amsterdam, NL, starting June 2022. <br /> <br /> Some of my favorite corporate
         and personal projects are below.
       </p>
     </div>
