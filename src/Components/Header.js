@@ -14,19 +14,19 @@ export default function Header() {
       <div className="text-header">
       <div style={{ borderLeft: "1px solid transparent", height: "30px" }}></div>
         <div onClick={() => handleClick("home")}>
-          <h3>Home</h3>
+          <h3 style={{cursor: 'pointer'}}>Home</h3>
         </div>
-        <div style={{ borderLeft: "1px solid #000", height: "30px" }}></div>
+        <div style={{ borderLeft: "1px solid #dbe8d4", height: "30px" }}></div>
         <div onClick={() => handleClick("portfolio")}>
-          <h3>Portfolio</h3>
+          <h3 style={{cursor: 'pointer'}}>Portfolio</h3>
         </div>
-        <div style={{ borderLeft: "1px solid #000", height: "30px" }}></div>
+        <div style={{ borderLeft: "1px solid #dbe8d4", height: "30px" }}></div>
         <div onClick={() => handleClick("resume")}>
-          <h3>Resume</h3>
+          <h3 style={{cursor: 'pointer'}}>Resume</h3>
         </div>
-        <div style={{ borderLeft: "1px solid #000", height: "30px" }}></div>
+        <div style={{ borderLeft: "1px solid #dbe8d4", height: "30px" }}></div>
         <div onClick={() => handleClick("contact")}>
-          <h3>Contact</h3>
+          <h3 style={{cursor: 'pointer'}}>Contact</h3>
         </div>
         <div style={{ borderLeft: "1px solid transparent", height: "30px" }}></div>
       </div>

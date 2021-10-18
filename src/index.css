@@ -34,13 +34,15 @@ code {
 }
 
 .flex-header {
-  background-color: #dbe8d4;
-  color: #222733;
+  background-color: #2a3245;
+  color: #dbe8d4;
   position: fixed;
   width: 100vw;
   left: 0;
   right: 0;
   margin: auto;
+  border-top: 1px solid #dbe8d4;
+  border-bottom: 1px solid #dbe8d4;
 }
 
 .text-header {
@@ -76,6 +78,7 @@ code {
   width: 250px;
   height: auto;
   margin: 0px 40px;
+  border: 1px solid;
 }
 
 .hr {
