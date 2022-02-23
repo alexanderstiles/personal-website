@@ -11,7 +11,7 @@ export default function About() {
         B.A. in Computer Science from the University of Virginia, with a minor
         in Technology Entrepreneurship.  A permanent EU resident, I will be
         living in Amsterdam as of June.  My passion is web development and
-        related modern front-end technologies.  When I'm not building web sites
+        related modern front-end technologies.  When I'm not building websites
         for corporate clients, you can find me traveling, hiking, and seeking
         out excellent food.  
         <br /> <br /> Check out some of my favorite corporate and personal
