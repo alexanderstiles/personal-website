@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../Assets/Alex_Stiles_Resume.pdf'
+import resume from '../Assets/Alexander_Stiles_CV.pdf'
 
 export default function Resume() {
     return (
