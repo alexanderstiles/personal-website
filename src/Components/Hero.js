@@ -6,7 +6,7 @@ export default function Hero() {
         <div id="home" className="hero-container section-padding" >
             <div>
                 <h1 style={{fontSize: 42}}>ALEXANDER STILES</h1>
-                <h2>Front-end Developer</h2>
+                <h2>Frontend Developer</h2>
             </div>
             <img src={headshot} className="headshot" alt="headshot"></img>
         </div>
