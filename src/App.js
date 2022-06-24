@@ -16,10 +16,10 @@ function App() {
         <hr className="hr" />
         <About />
         <hr className="hr" />
-        <Portfolio />
+        {/* <Portfolio />
         <hr className="hr" />
         <Resume />
-        <hr className="hr" />
+        <hr className="hr" /> */}
         <Contact />
         <hr className="hr" />
         <p>© 2022 Alexander Stiles</p>
