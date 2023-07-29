@@ -3,6 +3,7 @@ import linkedlogo from "../Assets/linkedin-logo.png";
 import email from "../Assets/email.png";
 import github from "../Assets/github.svg";
 
+
 export default function Contact() {
   return (
     <div id="contact" className="section-padding">
