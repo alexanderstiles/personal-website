@@ -22,7 +22,7 @@ function App() {
         <hr className="hr" /> */}
         <Contact />
         <hr className="hr" />
-        <p>© 2022 Alexander Stiles</p>
+        <p>© 2023 Alexander Stiles</p>
       </div>
     </div>
   );
